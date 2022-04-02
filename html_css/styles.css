@@ -1,0 +1,21 @@
+body {
+    background-color:rgba(127, 255, 212, 0.534);
+    display:flex;
+}
+hi {
+    color:aliceblue;
+}
+.second_header {
+    color:blue;
+}
+.group-text {
+    margin: 24px;
+    padding: 24px; 
+    background-color: pink;
+}
+
+@media (max-width: 480px) {
+    body{
+        flex-direction: column;
+    }
+}
